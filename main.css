@@ -1,0 +1,213 @@
+@media screen and (max-width: 600px) {
+  body {
+      font-size: 14px;
+      margin: 10px;
+  }
+}
+ 
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: 	#000000;
+}
+
+/* cabeçalho */
+header {
+  background: #fff;
+  text-align: left;
+  background-color: 	#050505;
+}
+
+.logo {
+  width: 300px;
+  height: 100px;
+
+}
+
+nav ul {
+  list-style-type: none;
+  font-family: 'Bebas Neue', sans-serif;
+  text-align: right;
+  padding-bottom: 10px;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 30px;
+}
+
+nav ul li a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+section {
+  background-color: #fff;
+  padding: 40px;
+  margin: 20px;
+  border-radius: 10px;
+  box-shadow: #727171;
+  
+}
+
+
+/*classes*/
+.imagens {
+  width:100%;
+  height: 500px;
+  border-radius: 14px;
+}
+
+
+.text {
+  text-align: center;
+  font-family:'Times New Roman', Times, serif; 
+  color: #ffffff;
+}
+
+.text-2 {
+  color: #FFD700;
+}
+
+.gallery {
+  display: flex;
+  background-color: var(--background);
+  gap: 210px                                                                                                                                                                                          ;
+  scale: 1.0;
+}
+
+.card {
+  position: relative;
+  left: 0px;
+  width: 300px;
+  height: 210px;
+  background-color: var(--background);
+  border-radius: 20px;
+  transition: 1000ms all;
+  transform-origin: center left; 
+  box-shadow: 0 10px 12px rgba(0, 0, 0, 0.5);
+  outline: 1px solid var(--background);
+  overflow: hidden;
+}
+
+.card img {
+  height: 210px;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+.card:hover {
+  cursor: pointer;
+  transform: scale(1.15);
+}
+
+.card:hover figcaption {
+  font-size: 1.0rem;
+  position: absolute;
+  height: 210px;
+  width: 300px;
+  display: flex;
+  align-items: end;
+  background:linear-gradient(
+    to top,
+    rgba(0, 0, 0, 0.9) 0%,
+    rgba(0, 0, 0, 0) 100% 
+    );
+    color: white;
+    left: 0px;
+    bottom: 0px;
+    padding-left: 12px;
+    padding-bottom: 10px;
+}
+
+.card:hover ~ .card {
+  font-weight: bold;
+  cursor: pointer;
+  transform: translateX(22px);
+}
+
+
+
+
+
+.text-3 {
+  margin: auto;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.foot {
+  padding: 20px;
+  font-family: eurosoftbold;
+}
+
+.foot-2 {
+  font-family: eurosoftbold;
+  display: inline;
+  text-decoration: none;
+  margin: 10px;
+  color: #000000;
+
+}
+
+
+.plano {
+  width: 300px;
+  background-color:#646363;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  margin: 20px;
+  padding: 50px;
+  text-align: center;
+  display: inline-block;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.plano h2 {
+  font-size: 40px;
+  color: #ffffff;
+}
+
+.plano h4 {
+  color: white;
+  
+}
+.plano p {
+  font-size: 16px;
+  color:#B0C4DE;
+}
+
+.price {
+  font-size: 32px;
+  color: #FFD700;
+  margin-top: 10px;
+}
+
+.button {
+  background-color: #FFD700;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  text-transform: uppercase;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+
+
+
+/*Rodapé*/
+footer {
+  font-family: eurosoftbold;
+  text-align: center;
+  color:#000000;
+  padding: 30px;
+  margin: 0;
+  background: #FFD700;
+  
+}
